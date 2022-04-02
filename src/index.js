@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "@fortawesome/fontawesome-free/css/all.css";
 import "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/react-fontawesome";
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,4 +14,5 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+serviceWorkerRegistration.register();
 
